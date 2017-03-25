@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms & Input</title>
+</head>
+<body>
+		<h1>Registration Form</h1>
+			<form>
+				<fieldset>
+				<legend>Account</legend>
+
+					<label>Name</label><br>
+					<input type="text" name="name" required>
+					<br><br>
+
+					<label>Email</label><br>
+					<input type="Email" name"Email" required>
+					<br><br>
+
+					<label>Password</label><br>
+					<input type="password" name"password" required>
+					<br><br>
+				</fieldset>
+
+				<fieldset>
+				<legend>User Info</legend>
+					<label>Location</label><br>
+					<select name="location">
+						<option value="Select Location" selected="">Select Location</option>
+						<option value="MA">MA</option>
+						<option value="NY">NY</option>
+						<option value="CA">CA</option>
+					</select>
+					<br><br>
+
+					<label>Gender:</label><br>
+					<input type="radio" name"gender" value="Male">Male
+					<input type="radio" name"gender" value="Female">Female
+					<br><br>
+
+					<label>Interests:</label><br>
+					<input type="checkbox" name"Interests" value="Movie">Movie
+					<input type="checkbox" name"Interests" value="Art">Art
+					<input type="checkbox" name"Interests" value="Sports">Sports
+					<input type="checkbox" name"Interests" value="Food">Food
+					<br><br>
+				</fieldset>
+
+					<br><br>
+					<input type="submit" value="Submit">
+				
+			</form>
+</body>
+</html>
