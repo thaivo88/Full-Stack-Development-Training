@@ -2,7 +2,8 @@
 <br>Learning Front-End and Back-End development to become a Full Stack Developer
 In this raspository are my notes, files, and projects from different training courses and resources.
 
-<ul>Front-End Technologies/Frameworks:</ul>
+<h4>Front-End Technologies/Frameworks:</h4>
+<ul>
 <il>-HTML/HTML5</il>
 <il>-CSS/CSS3</il>
 <il>-JavaScript</il>
@@ -12,7 +13,8 @@ In this raspository are my notes, files, and projects from different training co
 <il>-Algorithm Scripting</il>
 <il>-JSON API</il>
 <il>-Ajax</il>
-  
+</ul>
+ 
 Data Visualization:
 <br>-Sass
 <br>-React
