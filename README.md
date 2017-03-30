@@ -3,8 +3,8 @@ Learning Front-End and Back-End development to become a Full Stack Developer
 In this raspository are my notes, files, and projects from different training courses and resources.
 
 Front-End Technologies/Frameworks: 
-  -HTML/HTML5
-  -CSS/CSS3
+-HTML/HTML5
+-CSS/CSS3
   -JavaScript
   -jQuery
   -Bootstrap
