@@ -3,44 +3,44 @@ Learning Front-End and Back-End development to become a Full Stack Developer
 In this raspository are my notes, files, and projects from different training courses and resources.
 
 Front-End Technologies/Frameworks: 
- <br> -HTML/HTML5
-  -CSS/CSS3
-  -JavaScript
-  -jQuery
-  -Bootstrap
-  -OOP
-  -Algorithm Scripting
-  -JSON API
-  -Ajax
+<br>-HTML/HTML5
+<br>-CSS/CSS3
+<br>-JavaScript
+<br>-jQuery
+<br>-Bootstrap
+<br>-OOP
+<br>-Algorithm Scripting
+<br>-JSON API
+<br>-Ajax
   
 Data Visualization:
-  -Sass
-  -React
-  -D3
+<br>-Sass
+<br>-React
+<br>-D3
  
 Back-End technologies/frameworks:
-  -Node.js
-  -Meteors.js
-  -Express.js
-  -Angular
-  -PHP
-  -Ruby On Rails
-  -Cache Database
-  -Memcached
-  -Markdown
-  -Sass
-  -Git & Version Control
-  -API
-  -Task Runner - Grunt and Gulp
-  -Chrome Developmer tools
-  -Errors Debugging and Config
+<br>-Node.js
+<br>-Meteors.js
+<br>-Express.js
+<br>-Angular
+<br>-PHP
+<br>-Ruby On Rails
+<br>-Cache Database
+<br>-Memcached
+<br>-Markdown
+<br>-Sass
+<br>-Git & Version Control
+<br>-API
+<br>-Task Runner - Grunt and Gulp
+<br>-Chrome Developmer tools
+<br>-Errors Debugging and Config
   
 Database Development Technologies:
-  -MySQL
-  -MongoDB
-  -PostgreSQL
-  -NoSQL
-  -CouchDB
+<br>-MySQL
+<br>-MongoDB
+<br>-PostgreSQL
+<br>-NoSQL
+<br>-CouchDB
   
   
   
