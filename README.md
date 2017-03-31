@@ -15,9 +15,9 @@
 </ul>
  
 <h4>Data Visualization:</h4>
-<ul><li>Sass
-<li>React
-<li>D3</ul>
+<ul><li>Sass</li>
+<li>React</li>
+<li>D3</li></ul>
  
 <h4>Back-End technologies/frameworks:</h4>
 <ul><li>Node.js</li>
