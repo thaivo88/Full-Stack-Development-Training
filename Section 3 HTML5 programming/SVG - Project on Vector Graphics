@@ -1,5 +1,6 @@
 /*
 SVG is like canvas but for Jscript
+Each shape is Jscript
 */
 
 <!DOCTYPE html>
