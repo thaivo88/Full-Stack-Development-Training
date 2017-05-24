@@ -1,3 +1,7 @@
+/*
+SVG is like canvas but for Jscript
+*/
+
 <!DOCTYPE html>
 <html>
 	<head>
