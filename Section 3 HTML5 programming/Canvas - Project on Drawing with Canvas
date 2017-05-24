@@ -49,8 +49,8 @@
 		ctx.strokeText('Hello World', 20, 150 ); //the two number is the postion of the text
 
 		//gradient
-		var grd = ctx.createLinearGradient(0,0,100,0);
-		grad.addColorStop(1, 'blue');
+		var grd = ctx.createLinearGradient(0,0,50,0);
+		grd.addColorStop(1, 'blue');
 		grd.addColorStop(1, 'White');
 		ctx.fillStyle = grd;
 		ctx.fillRect(10,10,150,150);
