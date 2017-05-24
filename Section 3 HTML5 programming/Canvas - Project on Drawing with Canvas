@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html>
 
+	<head>
+
+		<title>Canvas</title>
+
+		<style>
+			#myCanvas{
+				border: 1px #000 solid;
+				background: #f4f4f4;
+			}
+
+		</style>
+
+	</head>
+
+
+
+	<body>
+
+		<canvas id="myCanvas" width="300" height="300"></canvas>
+
+		<script> //javascript
+			var c = document.getElementById('myCanvas');
+			var ctx = c.getContext('2d');
+
+		//Retangle
+		ctx.fillStyle='red'
+		//first two number is the location of the starting point
+		// the last two number is the size of the retangle
+		ctx.fillRect(75,75,150,150);
+
+		//creating a line starting postion is at 0,0 and ending postion is 250,150	
+		ctx.moveTo(0,0);
+		ctx.lineTo(250, 150);
+		ctx.stroke();
+
+		//circle
+		ctx.beginPath();
+		ctx.arc(150,150,60,0,2*Math.PI);
+		ctx.fillStyle='green'
+		ctx.fill();
+		ctx.lineWidh=4;
+		ctx.strokeStyle='pink'
+		ctx.stroke();
+
+		//text
+		ctx.font = '50px Arial';
+		ctx.strokeStyle = 'blue'
+		//the two number is the postion of the text
+		ctx.strokeText('Hello World', 20, 150 )
+
+		//gradient
+		
+		</script>
+
+	</body>
+
+</html>
