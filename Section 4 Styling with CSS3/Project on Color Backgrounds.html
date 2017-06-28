@@ -1,10 +1,68 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title></title>	
+			<title>Color, Background & Gradients</title>	
+		<style>
+				#rounded1{
+					background: red;
+					color: white;
+					width: 200px;
+					height: :200px;
+					padding: 30px;
+					border-radius: 25px;
+				}
+
+				#rounded2{
+					background: red;
+					color: white;
+					width: 200px;
+					height: :200px;
+					padding: 30px;
+					border-top-left-radius: 25px;
+					border-bottom-right-radius: 25px;
+				}
+
+				#rounded1{
+					background: red;
+					color: white;
+					width: 200px;
+					height: :200px;
+					padding: 30px;
+					border: 3px black solid;
+					border-radius: 50%;
+				}
+
+				img{
+					border-radius: 50%;
+				}
+
+				#border-img{
+					border: 10px solid transparent;
+					padding: 15px;
+					border-image: url(border.png) 30 round;
+				}
+
+				#my-bg{
+					background-image: url(img_flwr.gif,) url(paper.gif);
+					background-position: right bottom, left top;
+					background-repeat: no-repeat, repeat;
+					padding: 15px 200px 15px 15px;
+					background-size: 100px 100px;
+				} 
+		</style>
 	</head>
 
 	<body>
-	
+		<div id="rounded1">Rounded Corners</div><br>
+		<div id="rounded2">Rounded Corners</div><br>
+		<div id="rounded3">Rounded Corners</div><br>
+		<img src="bird.jpg"><br>
+		<div id="border-img">This div uses an image border</div><br>
+		<div id="my-bg">
+			<h4>Welcome</h4>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius ex vitae tincidunt sodales. Fusce at sodales dolor, vitae blandit arcu. Sed facilisis tincidunt sapien nec fermentum. Etiam ac velit suscipit, maximus lorem eu, feugiat turpis. Maecenas semper pharetra libero eu rutrum. Pellentesque scelerisque, quam eget viverra ornare, quam nulla auctor ipsum, id faucibus dui augue vitae nulla. Aliquam nibh neque, eleifend a nisl sed, vulputate volutpat dui. Duis justo nisi, rhoncus vitae nibh eget, lobortis pulvinar lacus. Integer fringilla metus varius dignissim placerat. In eu urna eget erat porta sodales. Phasellus neque metus, malesuada vel ligula quis, sodales facilisis dui. Quisque nec bibendum sem.
+			</p>
+		</div>
 	</body>
 </html>
