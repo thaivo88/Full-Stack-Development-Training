@@ -15,7 +15,6 @@
 			header, footer{
 				text-align: center;
 			}
-
 			#container{
 				width:400px;
 				margin:50px auto;
@@ -23,7 +22,6 @@
 				overflow: hidden;
 				padding: 30px;
 			}
-
 			.clear{
 				text-decoration: none;
 				background: #333;
@@ -49,7 +47,7 @@
 		}
 		
 		function clearNote(){
-			clear.localStorage.clear();
+			clear: localStorage.clear();
 			return false;
 		}
 		</script>
@@ -67,18 +65,18 @@
 		</header>
 
 			<section id="container">
-				<div id="note" contenteditable="true" onkeyup="savenote(this.id)"></div>
+				<div id="note" contenteditable="true" onkeyup="saveNote(this.id)"></div>
 			</section>
 
 		<footer>
 			<div>
 				<a href="" onclick="javascript:clearNote();" class="clear">Clear Note</a>
 			</div>
-				<p>TremendousThai Production &copy; 2017</p>
+				<p>Tremendous Production &copy; 2017</p>
 		</footer>
 
 		<script>
-		getNote();
+			getNote();
 		</script>
 
 
