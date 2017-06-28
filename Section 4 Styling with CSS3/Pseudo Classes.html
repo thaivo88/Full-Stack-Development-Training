@@ -3,7 +3,7 @@
 	<head>
 	<title>Pseudo Classes</title>	
 	<style>
-	
+
 		a:hover{
 			color: red;
 			font-weight: bold;
@@ -30,6 +30,19 @@
 			color: purple;
 			font-weight: bold;
 		}	
+
+			/*Change the color of the even element of the list*/
+		.myList li:nth-child(even){
+			color: purple;
+			font-weight: bold;
+		}	
+			
+			/*Change the color of every fourth element of the list*/
+		.myList li:nth-child(n+3){
+			color: purple;
+			font-weight: bold;
+		}	
+
 	</style>
 	</head>
 
