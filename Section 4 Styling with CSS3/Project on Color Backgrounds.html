@@ -4,7 +4,8 @@
 			<title>Color, Background & Gradients</title>	
 		<style>
 				#rounded1{
-					background: red;
+					background: rgba(255,0,0, 0.3);
+					/*rgba is like rgb (reb, green, blue) the a is for alpha that allow you to do transparentcy*/
 					color: white;
 					width: 200px;
 					height: :200px;
@@ -13,7 +14,8 @@
 				}
 
 				#rounded2{
-					background: red;
+					background: hsl(120, 100%, 75%);
+					/*(hue, saturation, lightness) Hue is a degree on the color wheel (from 0 to 360) - 0 (or 360) is red, 120 is green, 240 is blue. Saturation is a percentage value; 0% means a shade of gray and 100% is the full color.*/
 					color: white;
 					width: 200px;
 					height: :200px;
@@ -22,8 +24,9 @@
 					border-bottom-right-radius: 25px;
 				}
 
-				#rounded1{
-					background: red;
+				#rounded3{
+					background: hsla(120, 100%, 50%, 0.3);
+					/*(hue, saturation, lightness alpha) Hue is a degree on the color wheel (from 0 to 360) - 0 (or 360) is red, 120 is green, 240 is blue. Saturation is a percentage value; 0% means a shade of gray and 100% is the full color. The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).*/
 					color: white;
 					width: 200px;
 					height: :200px;
@@ -49,6 +52,48 @@
 					padding: 15px 200px 15px 15px;
 					background-size: 100px 100px;
 				} 
+
+				#grad1{
+					width: 500px;
+					height: 200px;
+					background: blue;
+					background: linear-gradient(blue, black, white);
+				}
+
+				#grad2{
+					width: 500px;
+					height: 200px;
+					background: blue;
+					background: linear-gradient(to right blue, black, white);
+				}
+
+				#grad3{
+					width: 500px;
+					height: 200px;
+					background: blue;
+					background: linear-gradient(to bottom right blue, black, white);
+				}
+
+				#grad4{
+					width: 500px;
+					height: 200px;
+					background: blue;
+					background: radial-gradient(white 5%, blue 15%, black 60%);
+				}
+
+				#grad5{
+					width: 500px;
+					height: 200px;
+					background: blue;
+					background: radial-gradient(circle, white 5%, blue 15%, black 60%);
+				}
+
+				#grad6{
+					width: 500px;
+					height: 200px;
+					background: blue;
+					background: repeating-radial-gradient(circle, white 5%, blue 15%, black 60%);
+				}
 		</style>
 	</head>
 
@@ -64,5 +109,12 @@
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin varius ex vitae tincidunt sodales. Fusce at sodales dolor, vitae blandit arcu. Sed facilisis tincidunt sapien nec fermentum. Etiam ac velit suscipit, maximus lorem eu, feugiat turpis. Maecenas semper pharetra libero eu rutrum. Pellentesque scelerisque, quam eget viverra ornare, quam nulla auctor ipsum, id faucibus dui augue vitae nulla. Aliquam nibh neque, eleifend a nisl sed, vulputate volutpat dui. Duis justo nisi, rhoncus vitae nibh eget, lobortis pulvinar lacus. Integer fringilla metus varius dignissim placerat. In eu urna eget erat porta sodales. Phasellus neque metus, malesuada vel ligula quis, sodales facilisis dui. Quisque nec bibendum sem.
 			</p>
 		</div>
+		<br>
+		<div id="grad1"></div><br>
+		<div id="grad2"></div><br>
+		<div id="grad3"></div><br>
+		<div id="grad4"></div><br>
+		<div id="grad5"></div><br>
+		<div id="grad6"></div><br>
 	</body>
 </html>
