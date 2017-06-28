@@ -57,4 +57,16 @@
 <li>MS: Access</li>
 </ul>
   
-  
+<h4>Resources:</h4>
+<ul><li>Github</li>
+<li>SoloLearning</li>
+<li>Eduonix</li>
+<li>Udemy</li>
+<li>Code Camp</li>
+<li>Codepen</li>
+<li>w3schools</li>
+<li>Techonthenet</li>
+<li>Tutorialspoint</li>
+<li>Microsoft Virtual Academy</li>
+<li>Stack Overflow</li>
+</ul>
