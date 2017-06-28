@@ -2,6 +2,49 @@
 <html>
 	<head>
 	<title>Pseudo Classes</title>	
+	<style>
+	
+		a:hover{
+			color: red;
+			font-weight: bold;
+		}
+
+		a:active{
+			color: green;
+			font-weight: bold;
+		}
+
+		.myForm input:focus{
+			background: gray;
+			width: 300px;
+		}
+
+			/*Change the color of the first element of the list*/
+		.myList li:first-child{
+			color: green;
+			font-weight: bold;
+		}
+
+			/*Change the color of the third element of the list*/
+		.myList li:nth-child(3){
+			color: purple;
+			font-weight: bold;
+		}	
+	</style>
 	</head>
 
-	
+	<body>
+		<a href="#">Click Me</a>
+
+		<form class="myForm">
+		<input type="type">
+		</form>
+
+		<ul class="myList">
+		<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li>
+		<li>List Item</li></ul>
+	</body>
+</html>
