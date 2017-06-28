@@ -8,7 +8,7 @@
 <li>JavaScript</li>
 <li>jQuery</li>
 <li>Bootstrap</li>
-<li>OOP</li>
+<li>OOP: (Java, C#)</li>
 <li>Algorithm Scripting</li>
 <li>JSON API</li>
 <li>Ajax</li>
