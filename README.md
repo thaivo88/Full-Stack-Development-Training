@@ -70,5 +70,5 @@
 <li>Microsoft Virtual Academy</li>
 <li>Stack Overflow</li>
 <li>Lorem Ipsum</li>
-<li>Youtube<li>
+<li>Youtube</li>
 </ul>
