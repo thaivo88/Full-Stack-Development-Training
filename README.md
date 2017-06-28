@@ -43,6 +43,15 @@
 <li>NoSQL</li>
 <li>CouchDB</li></ul>
   
-  
+<h4>Software used:</h4>
+<ul><li>Oracle APEX: (Application Express) SaaS</li>
+<li>Sublime Text 3 Editor</li>
+<li>Eclipe Java Neon</li>
+<li>CodeBlocks</li>
+<li>Visual Stuido 2017</li>
+<li>Qlik Sense Desktop</li>
+<li>Adobe Dreamweaver</li>
+<li></li>
+</ul>
   
   
