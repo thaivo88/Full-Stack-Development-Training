@@ -1,5 +1,5 @@
 <h1>Full Stack development</h1>
-<p><br>Learning Front-End and Back-End development to become a Developer: (Devops/Software Developer/Software Engineer/Front-end/Back-end/Full-Stack) 
+<p><br>Learning different programming technologies to become a Developer: (Devops/Software Developer/Software Engineer/Front-end/Back-end/Full-Stack) 
 <br>In this raspository are my notes, files, and projects from different training courses and resources.</p>
 
 <h4>Front-End Technologies/Frameworks:</h4>
