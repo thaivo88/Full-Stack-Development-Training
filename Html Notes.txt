@@ -1,0 +1,125 @@
+
+HTML: Hyper Text Markup Language  
+HTML is a Markup language – Uses a set of markup tags (NOT a programming language)  
+**Java is a scripting programming language**  
+  
+Keywords surrounded by angle brackets <> are tags  
+Structure of a tag: <tag attribute="value"></tag>  
+-------------------------
+Block level elements  
+Always start on a new line  
+Takes up full available width  
+<Div>  
+<H1>-<h6>  
+<P>  
+<Form> 
+-------------------------
+Inline level elements  
+Does not start on a new line  
+Takes only width necessary  
+<span>  
+<a>  
+<img>  
+--------------------
+
+Now let's change the color of some of our text.  
+We can do this by changing the style of your h2 element.  
+The style that is responsible for the color of an element's text is the "color" style.  
+Here's how you would set your h2 element's text color to blue:  
+<h2 style="color: blue">CatPhotoApp</h2>  
+With CSS, there are hundreds of CSS properties that you can use to change the way an element looks on your page.  
+When you entered <h2 style="color: red">CatPhotoApp</h2>, you were giving that individual h2 element an inline style.  
+ 
+You can add images to your website by using the img element, and point to a specific image's URL using the src attribute. 
+An example of this would be: 
+<img src="https://www.your-image-source.com/your-image.jpg"> 
+All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load. 
+Lets add an alt attribute to our img example above: 
+<img src="https://www.your-image-source.com/your-image.jpg" alt="Author standing on a beach with two thumbs up. "> 
+Note that in most cases, img elements are self-closing. 
+CSS has a property called width that controls an element's width. Just like with fonts, we'll use px (pixels) to specify the image's width. 
+For example, if we wanted to create a CSS class called larger-image that gave HTML elements a width of 500 pixels, we'd use: 
+<style> 
+  .larger-image { 
+    width: 500px; 
+  } 
+</style> 
+ 
+Turning a picture into a link 
+<a href="#"><img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera. "></a> 
+Remember to use # as your a element's href property in order to turn it into a dead link.
+-----------------
+
+creating a bulleted list
+
+Unordered lists start with a <ul> element. Then they contain some number of <li> elements. 
+ 
+<h>To Buy List:</h> 
+<ul> 
+<li>Milk</li> 
+<li>Cheese</li> 
+</ul> 
+Ordered lists start with a <ol> element. Then they contain some number of <li> elements. 
+ 
+<h>To Buy List:</h> 
+<ol> 
+<li>Milk</li> 
+<li>Cheese</li> 
+</ol> 
+Description lists start with a <dl> element. Then they contain some number of <dt> elements for description title and <dd> description detail. 
+ 
+<h1>Description List</h1> 
+   <dl>           <dt>Coffee</dt> 
+     <dd>Black hot drink</dd>   <dt>Milk</dt> 
+     <dd>White cold drink</dd> 
+   </dl> 
+---------------------------------
+
+Create a Text Field 
+ 
+You can create one like this: 
+<input type="text"> 
+Note that input elements are self-closing. 
+Create an input element of type text below your lists. 
+You can create placeholder text like so: 
+<input type="text" placeholder="this is placeholder text"> 
+ 
+You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action on your form element. 
+For example: 
+<form action="/url-where-you-want-to-submit-form-data"></form> 
+ 
+Let's add a submit button to your form. Clicking this button will send the data from your form to the URL you specified with your form's action attribute. 
+Here's an example submit button: 
+<button type="submit">this button submits the form</button> 
+You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out. 
+For example, if you wanted to make a text input field required, you can just add the word required within your input element, you would use:  
+<input type="text" required> 
+ 
+You can use radio buttons for questions where you want the user to only give you one answer. 
+Radio buttons are a type of input 
+Each of your radio buttons should be nested within its own label element. 
+All related radio buttons should have the same name attribute. 
+Here's an example of a radio button: 
+<label><input type="radio" name="indoor-outdoor"> Indoor</label> 
+ 
+Forms commonly use checkboxes for questions that may have more than one answer. 
+Checkboxes are a type of input 
+Each of your checkboxes should be nested within its own label element. 
+All related checkbox inputs should have the same name attribute. 
+Here's an example of a checkbox: 
+<label><input type="checkbox" name="personality"> Loving</label> 
+You can set a checkbox or radio button to be checked by default using the checked attribute. 
+To do this, just add the word "checked" to the inside of an input element. For example: 
+<input type="radio" name="test-name" checked> 
+ 
+The div element, also known as a division element, is a general purpose container for other elements. 
+The div element is probably the most commonly used HTML element of all. It's useful for passing the CSS of its own class declarations down to all the elements that it contains. 
+Just like any other non-self-closing element, you can open a div element with <div> and close it on another line with </div>. 
+ 
+In addition to classes, each HTML element can also have an id attribute. 
+There are several benefits to using id attributes, and you'll learn more about them once you start using jQuery. 
+id attributes should be unique. Browsers won't enforce this, but it is a widely agreed upon best practice. So please don't give more than one element the same id attribute. 
+Here's an example of how you give your h2 element the id of cat-photo-app: 
+<h2 id="cat-photo-app"> 
+Note that inside your style element, you always reference classes by putting a . in front of their names. You always reference ids by putting a # in front of their names. 
+
